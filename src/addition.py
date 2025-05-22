@@ -20,3 +20,12 @@ def mul(a, b):
 def test_mul():
     assert mul(2, 1) == 2
     assert mul(1, -1) == -1
+
+def div(a, b):
+    return a / b
+
+def test_div():
+    assert div(4, 2) == 2
+    assert div(9, 3) == 3
+    assert div(-6, 2) == -3
+
